@@ -11,6 +11,9 @@ public class HomeWork {
         for (int i = 0; i < array.length; i++) {
             array[i] = 2;
         }
+        for (int i = 0; i < array.length; i++) {
+            System.out.print(array[i] + " ");
+        }
 
         // Task 2
         // Create an array and fill it with numbers from 1:1000.
@@ -26,7 +29,7 @@ public class HomeWork {
         // Task 3
         // Create an array and fill it with odd numbers from -20:20
 
-        System.out.println(" Task 3\n" + "Create an array and fill it with odd numbers from -20:20");
+        System.out.println("\nTask 3\n" + "Create an array and fill it with odd numbers from -20:20");
 
         int[] oddNumbersArray = new int[20];
         for (int i = -19, j = 0; i <= 20 && j < oddNumbersArray.length; i += 2, j++) {
@@ -41,7 +44,7 @@ public class HomeWork {
         // Task 4
         // Create an array and fill it. Print all elements which can be divided by 5.
 
-        System.out.println("Task 4\n" + "Create an array and fill it. Print all elements which can be divided by 5.");
+        System.out.println("\nTask 4\n" + "Create an array and fill it. Print all elements which can be divided by 5.");
 
         int[] numbersSequence = {1, 5, 18, 35, 14, -50, 27, 40, 86};
         for (int i = 0; i < numbersSequence.length; i++) {
@@ -53,7 +56,7 @@ public class HomeWork {
         // Task 5
         // Create an array and fill it. Print all elements which are between 24.12 and 467.23.
 
-        System.out.println("Task 5\n" + "Create an array and fill it. Print all elements which are between 24.12 and 467.23.");
+        System.out.println("\nTask 5\n" + "Create an array and fill it. Print all elements which are between 24.12 and 467.23.");
 
         int[] numbers = {45, 32, -87, 45, -113, 7891, 1, 4, 48, -856, 1203, 485, 3};
         for (int i = 0; i < numbers.length; i++) {
@@ -65,7 +68,7 @@ public class HomeWork {
         // Task 6
         // Create an array and fill it. Print count of elements which can be divided by 2.
 
-        System.out.println("Task 6\n" + "Create an array and fill it. Print count of elements which can be divided by 2.");
+        System.out.println("\nTask 6\n" + "Create an array and fill it. Print count of elements which can be divided by 2.");
 
         int countOfElements = 0;
         int[] numbersArray = {4, 5, 14, 5, 3, 10, 51, 35, 147, 65, 89, 98, 112, 364};
